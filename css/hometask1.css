@@ -1,9 +1,17 @@
-ul{
-	margin: 0px 0px 0px 400px;
+body{
+	background: #ccc;
+	margin-bottom: 10px;
+} 
+.wrapper{
+	background: #fff; 
+	width: 600px; 
+	margin: 10px auto; 
+	box-shadow: 0 0 10px #777;
+	}
+
+p,a{
+	margin: 10px;
 }
-p{
-	margin: 0px 0px 0px 400px;
-}
-a{
-	margin: 0px 0px 0px 400px;
+.end{
+	padding-bottom: 10px;
 }
