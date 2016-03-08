@@ -16,14 +16,15 @@ p,a{
 	padding-bottom: 10px;
 }
 .central{
-width: 382px;
-margin: auto;
+text-align: center;
+
 }
 .photoc{
-	width: 200px;
-	margin: auto;
+	text-align: center;
 }
+
 .hudog{
-	width: 580px;
-	margin: auto;
+	
+	text-align: center;
+
 }
