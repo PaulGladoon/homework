@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.body{
+	background: url(../img/fone.png);
+	width: 100%;
+}
+.linehead{
+	background: url(../img/blueline.png);
+	width: 1920px;
+}
+.menuhead{
+	height: 35px;
+	margin-right: 380px;
+}
+.menuhead li{
+	list-style: none;
+	float: right;
+}
+.menuhead a{
+	display: block;
+	text-decoration: none;
+	color: #60b5ed;
+	line-height: 35px;
+	padding: 0px 25px;
+}
+.menuhead a:hover{
+	background: #4eabda;
+	color: white;
+}
+.textright1{
+	position: absolute;
+	right: -316px;
+	top: 8px;
+	text-decoration: none;
+	color: white;
+}
+.textright2{
+	position: absolute;
+	right: -534px;
+	top: 0px;
+	color: white;
+	width: 190px;
+	height: 35px;
+	background: #60b5ed;
+	line-height: 35px;
+	padding-left: 8px;
+}
+.textright2 a{
+	color: white;
+}
+.flag{
+	position: absolute;
+	right: -212px;
+	top: -8px;
+}
