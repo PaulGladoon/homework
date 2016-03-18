@@ -1,10 +1,22 @@
 *{
 	margin: 0;
 	padding: 0;
+}	
+@font-face{
+    font-family: 'Helvetica Neue Regular';
+    src: url('fonts/helveticaneue-thin-webfont.eot');
+    src: url('fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('fonts/helveticaneue-thin-webfont.woff') format('woff'),
+         url('fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
-.body{
+body{
 	background: url(../img/fone.png);
 	width: 100%;
+	height: 1080px;
+	font-family: Helvetica;
 }
 .linehead{
 	background: url(../img/blueline.png);
@@ -17,6 +29,7 @@
 .menuhead li{
 	list-style: none;
 	float: right;
+	font-size: 14px;
 }
 .menuhead a{
 	display: block;
@@ -35,6 +48,7 @@
 	top: 8px;
 	text-decoration: none;
 	color: white;
+	font-size: 14px;
 }
 .textright2{
 	position: absolute;
@@ -46,6 +60,7 @@
 	background: #60b5ed;
 	line-height: 35px;
 	padding-left: 8px;
+	font-size: 14px;
 }
 .textright2 a{
 	color: white;
@@ -54,4 +69,128 @@
 	position: absolute;
 	right: -212px;
 	top: -8px;
+}
+.central1{
+	width: 560px;
+	height: 60px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	magrin: -100px 0 0 -150px;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 24px;
+}
+.central2{
+	width: 560px;
+	height: 550px;
+	position: absolute;
+	left: 50%;
+	top: 63%;
+	magrin: -100px 0 0 -150px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.facebook{
+	no-repeat;
+	text-align: center;
+	margin-top: 35px
+}
+.firstname{
+	height: 35px;
+	width: 275px;
+	background-color: #100f0f;
+	color: white;
+	margin-top: 35px;	
+}
+.lastname{
+	height: 35px;
+	width: 275px;
+	background-color: #100f0f;
+	margin-top: 15px;
+	color: white;
+}
+.email{
+	height: 35px;
+	width: 275px;
+	background-color: #100f0f;
+	margin-top: 15px;
+	color: white;
+}
+.password{
+	height: 35px;
+	width: 275px;
+	background-color: #100f0f;
+	margin-top: 15px;
+	color: white;
+}
+.confpassword{
+	height: 35px;
+	width: 275px;
+	background-color: #100f0f;
+	margin-top: 15px;
+	color: white;
+}
+input{
+	font-size: 14px;
+	border: none;
+	border-bottom: 1px #474747 solid;
+}
+.first{
+	text-align: center;
+}
+.first input[type="text"]:hover{
+	background: #1b5288;
+}
+.first input[type="password"]:hover{
+	background: #1b5288;
+}
+.send{
+	margin-top: 20px;
+	margin-left: -35px;
+	color: white;
+}
+.acc{
+	text-align: center;
+	margin-top: 23px;
+}
+.text1{
+	color: white;
+	text-align: center;
+	font-size: 11px;
+	margin-top: 22px;
+}
+.p1{
+	margin-left: 142px;
+	margin-top: 35px;
+}
+.uos:before,
+.uos:after{
+	content: "";
+	position: relative;
+	display: inline-block;
+	width: 21%;
+	height: 2px;
+	vertical-align: middle;
+	background-image: linear-gradient(#666666, #000000);
+	background-clip: content-box;
+}
+.uos:before{
+	left: -0.5em;
+	margin: 0 0 0 27%;
+}
+.uos:after{
+	left: 0.5em;
+	margin: 0 -50% 0 0;
+}
+.OU{
+	margin-top: 25px;
+	font-size: 14px;
+}
+.uos{
+	color: #999999;
+}
+.sender{
+	font-size: 14px;
 }
