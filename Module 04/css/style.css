@@ -147,3 +147,12 @@ body{
 	clear: both;
 	display: block;
 }
+.strela{
+  position: absolute;
+  top: 14px;
+  left: 255px;
+  border: 4px solid transparent;
+  border-top-color: white;  
+  border-bottom: 0;
+  } 
+}
