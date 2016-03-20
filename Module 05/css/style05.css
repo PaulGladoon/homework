@@ -15,10 +15,11 @@
 body{
 	background: url(../img/fone.png);
 	background-repeat: no-repeat;
-    background-size: 100%;
-    height: 100%;
+    background-size: cover;
+    height: 1060px;
     width: 100%;
 	font-family: Helvetica;
+	
 }
 .linehead{
 	background: url(../img/blueline.png);
@@ -75,29 +76,33 @@ body{
 .central1{
 	width: 560px;
 	height: 60px;
-	position: absolute;
-	left: 30%;
-	top: 17%;
+	position: relative;
+	// left: 33%;
+	top: 210px;
 	// magrin: -100px 0 0 -150px;
 	background-color: rgba(0, 0, 0, 0.6);
 	color: white;
 	text-align: center;
 	padding-top: 20px;
 	font-size: 24px;
+	margin: 0 auto;
+	
 }
 .central2{
 	width: 560px;
 	height: 550px;
-	position: absolute;
-	left: 30%;
-	top: 30%;
-	magrin: -100px 0 0 -150px;
+	position: relative;
+	// left: 30%;
+	top: 213px;
+	margin: 0 auto;
 	background-color: rgba(0, 0, 0, 0.6);
+	margin-bottom: 60px;
+	
 }
 .facebook{
 	no-repeat;
 	text-align: center;
-	margin-top: 35px
+	padding-top: 35px;
 }
 .firstname{
 	height: 35px;
@@ -142,10 +147,10 @@ input{
 .first{
 	text-align: center;
 }
-.first input[type="text"]:hover{
+.first input[type="text"]:focus{
 	background: #1b5288;
 }
-.first input[type="password"]:hover{
+.first input[type="password"]:focus{
 	background: #1b5288;
 }
 .send{
