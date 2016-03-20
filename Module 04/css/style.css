@@ -9,8 +9,8 @@ body{
 }
 .wrapper{
 	margin: 0px auto;
-	margin-bottom: 35px;
-	padding: 27px 0px 0px 0px;
+	margin-bottom: 0px;
+	padding: 30px 0px 0px 0px;
 	width: 1000px;
 	background: white;
 	box-shadow: 0 0 10px;
@@ -45,6 +45,7 @@ body{
 .more{
 	width: 100%;
 }
+
 .centralmenu{
 	position: relative;
     // overflow: hidden;
@@ -59,6 +60,7 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#373737',GradientType=0 ); /* IE6-9 */
     border-bottom: 1px black solid;
     box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.69);
+    // clear: both;
 }
 .centralmenu li{
 	list-style: none;
@@ -71,30 +73,34 @@ body{
 	font-family: Tahoma;
 	font-size: 14px;
 	text-decoration: none;
-	padding: 0px 38px;
+	padding: 0px 36px;
 }
 .submenu{
 	display: none;
     position: absolute;
-    width: 150px;
+    width: 168.5px;
     top: 30px;
-    left: 127px;
+    left: 124px;
     background-color: #303030;
     box-shadow: 0px 4px 4px 0px rgba(55,55,55,1);
 }
 .centralmenu li:hover .submenu{
     display: block;
 }
+.centralmenu li:hover{
+	background: #777;
+}
 
 .product{
 	width: 1000px;
+	height: 600px;
 	margin-top: 2px;
 	overflow: hidden;
 }
 .leftcolon{
 	padding-left: 15px;
 	padding-right: 24px;
-	padding-top: 30px;
+	padding-top: 0px;
 	// text-align: center;
 	font-family: Tahoma;
 	font-size: 14px;
@@ -105,9 +111,10 @@ body{
 	margin-bottom: -2000px;
 	color: #424C43;
 	border: 1px #c7cacf solid;
+	
 }
 .centralcolon{
-	padding-top: 30px;
+	padding-top: 0px;
 	width: 580px;
 	font-family: Tahoma;
 	font-size: 14px;
@@ -121,7 +128,7 @@ body{
 .rightcolon{
 	padding-left: 15px;
 	padding-right: 24px;
-	padding-top: 30px;
+	padding-top: 0px;
 	// text-align: center;
 	font-family: Tahoma;
 	font-size: 14px;
@@ -142,17 +149,21 @@ body{
 	font-size: 18px;
 	text-align: center;
 }
-.clearfix:after{
-	content: "";
-	clear: both;
-	display: block;
-}
 .strela{
-  position: absolute;
-  top: 14px;
-  left: 255px;
-  border: 4px solid transparent;
-  border-top-color: white;  
-  border-bottom: 0;
-  } 
+	font-size: 8px;
+	vertical-align: middle;
+}
+.strela2{
+	font-size: 8px;
+	vertical-align: middle;
+}
+.footer{
+	height: 34px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 12px;
+	padding: 7px;
+}
+.footer p{
+	padding: 10px;
 }
