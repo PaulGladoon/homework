@@ -1,0 +1,17 @@
+body{
+	text-align: center;
+	margin-top: 200px;
+	background-color: black;
+}
+
+button{
+	width: 100px;
+	height: 35px;
+	background-color: red;
+	font-family: "Lato";
+	font-size: 25px;
+}
+
+button:hover{
+	cursor: pointer;
+}
