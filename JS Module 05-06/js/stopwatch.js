@@ -58,10 +58,10 @@ function Stopwatch(elem) {
 	};
 
 	this.reset = function() {
-		if (!this.isOn) {
+		// if (!this.isOn) {
 			time = 0;
 		    update();
-		}
+		// }
 		
 	};
 
