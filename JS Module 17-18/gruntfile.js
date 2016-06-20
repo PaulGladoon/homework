@@ -6,7 +6,7 @@ module.exports = function(grunt) {
         separator: ';'
       },
       dist: {
-        src: ['js/src/*.js'],
+        src: ['src/js/*.js'],
         dest: 'js/dist/script.main.js'
       }
     },
@@ -22,7 +22,7 @@ module.exports = function(grunt) {
         banner: '/* My minified CSS */'
       },
       files: {
-        'css/dist/style.min.css' : ['css/src/*.css']
+        'css/dist/style.min.css' : ['src/css/*.css']
       }
     }
 
@@ -32,7 +32,7 @@ module.exports = function(grunt) {
       // Task-specific options go here.
     },
     all: {
-      src: ["css/src/*.css"],
+      src: ["src/css/*.css"],
       dest: "css/dist/styles.main.css"
     },
   }
